@@ -1,0 +1,25 @@
+{
+    "appTitle": "એગ્રોઅસિસ્ટ",
+    "settings": "સેટિંગ્સ",
+    "darkMode": "ડાર્ક મોડ",
+    "darkThemeEnabled": "ડાર્ક થીમ સક્ષમ",
+    "lightThemeEnabled": "લાઇટ થીમ સક્ષમ",
+    "appSettings": "એપ્લિકેશન સેટિંગ્સ",
+    "enableNotifications": "સૂચનાઓ સક્ષમ કરો",
+    "receiveUpdates": "અપડેટ્સ અને અલર્ટ્સ મેળવો",
+    "language": "ભાષા",
+    "about": "વિશે",
+    "appVersion": "એપ્લિકેશન વર્ઝન",
+    "developer": "ડેવલપર",
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "termsOfService": "સેવાની શરતો",
+    "selectLanguage": "ભાષા પસંદ કરો",
+    "confidence": "વિશ્વસનીયતા: {confidence}%",
+    "@confidence": {
+        "placeholders": {
+            "confidence": {
+                "type": "String"
+            }
+        }
+    }
+} 

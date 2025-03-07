@@ -1,0 +1,68 @@
+{
+    "appTitle": "एग्रोअसिस्ट",
+    "settings": "सेटिंग्स",
+    "appearance": "दिखावट",
+    "darkMode": "डार्क मोड",
+    "darkThemeEnabled": "डार्क थीम सक्षम",
+    "lightThemeEnabled": "लाइट थीम सक्षम",
+    "appSettings": "ऐप सेटिंग्स",
+    "enableNotifications": "सूचनाएं सक्षम करें",
+    "receiveUpdates": "अपडेट और अलर्ट प्राप्त करें",
+    "language": "भाषा",
+    "about": "जानकारी",
+    "appVersion": "ऐप वर्जन",
+    "developer": "डेवलपर",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsOfService": "सेवा की शर्तें",
+    "selectLanguage": "भाषा चुनें",
+    
+    "home": "होम",
+    "crops": "फसलें",
+    "diseases": "रोग",
+    "identify": "पहचानें",
+    "health": "स्वास्थ्य",
+    
+    "cropRecommendation": "फसल सिफारिश",
+    "cropDiseaseDetection": "फसल रोग पहचान",
+    "fruitIdentification": "फल पहचान",
+    "fruitHealthClassifier": "फल स्वास्थ्य वर्गीकरण",
+    "cropAnalytics": "फसल विश्लेषण",
+    
+    "enterCropParameters": "फसल पैरामीटर दर्ज करें",
+    "getRecommendation": "सिफारिश प्राप्त करें",
+    "reset": "रीसेट",
+    "predicting": "भविष्यवाणी कर रहा है...",
+    "recommendedCrop": "अनुशंसित फसल: {crop}",
+    
+    "selectImageSource": "छवि स्रोत चुनें",
+    "camera": "कैमरा",
+    "gallery": "गैलरी",
+    "tapToAddPhoto": "फोटो जोड़ने के लिए टैप करें",
+    "confidence": "विश्वसनीयता: {confidence}%",
+    "@confidence": {
+        "placeholders": {
+            "confidence": {
+                "type": "String"
+            }
+        }
+    },
+    
+    "disease": "रोग: {name}",
+    "description": "विवरण",
+    "symptoms": "लक्षण",
+    "solutions": "समाधान",
+    "preventiveMeasures": "निवारक उपाय",
+    
+    "classification": "वर्गीकरण: {name}",
+    "healthyCrop": "फसल स्वस्थ प्रतीत होती है।",
+    "rottenCrop": "फसल सड़ी या रोगग्रस्त प्रतीत होती है।",
+    
+    "fruitsVegetables": "फल और सब्जियां",
+    "plantDiseases": "पौधों के रोग",
+    "recommendedCrops": "अनुशंसित फसलें",
+    "healthyVsRotten": "स्वस्थ बनाम सड़ी",
+    "appInformation": "ऐप जानकारी",
+    
+    "openAnalyticsDashboard": "विश्लेषण डैशबोर्ड खोलें",
+    "cropsInformationDashboard": "फसल जानकारी डैशबोर्ड"
+} 

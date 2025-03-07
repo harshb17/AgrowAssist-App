@@ -1,0 +1,89 @@
+{
+    "appTitle": "AgroAssist",
+    "settings": "Settings",
+    "appearance": "Appearance",
+    "darkMode": "Dark Mode",
+    "darkThemeEnabled": "Dark theme enabled",
+    "lightThemeEnabled": "Light theme enabled",
+    "appSettings": "App Settings",
+    "enableNotifications": "Enable Notifications",
+    "receiveUpdates": "Receive updates and alerts",
+    "language": "Language",
+    "about": "About",
+    "appVersion": "App Version",
+    "developer": "Developer",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "selectLanguage": "Select Language",
+    
+    "home": "Home",
+    "crops": "Crops",
+    "diseases": "Diseases",
+    "identify": "Identify",
+    "health": "Health",
+    
+    "cropRecommendation": "Crop Recommendation",
+    "cropDiseaseDetection": "Crop Disease Detection",
+    "fruitIdentification": "Fruit Identification",
+    "fruitHealthClassifier": "Fruit Health Classifier",
+    "cropAnalytics": "Crop Analytics",
+    
+    "enterCropParameters": "Enter Crop Parameters",
+    "getRecommendation": "Get Recommendation",
+    "reset": "Reset",
+    "predicting": "Predicting...",
+    "recommendedCrop": "Recommended Crop",
+    "@recommendedCrop": {
+        "placeholders": {
+            "crop": {
+                "type": "String"
+            }
+        }
+    },
+    
+    "selectImageSource": "Select Image Source",
+    "camera": "Camera",
+    "gallery": "Gallery",
+    "tapToAddPhoto": "Tap to add photo",
+    "confidence": "Confidence: {confidence}%",
+    "@confidence": {
+        "placeholders": {
+            "confidence": {
+                "type": "String"
+            }
+        }
+    },
+    
+    "disease": "Disease",
+    "@disease": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "description": "Description",
+    "symptoms": "Symptoms",
+    "solutions": "Solutions",
+    "preventiveMeasures": "Preventive Measures",
+    
+    "classification": "Classification",
+    "@classification": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "healthyCrop": "Healthy Crop",
+    "rottenCrop": "Rotten Crop",
+    
+    "fruitsVegetables": "Fruits & Vegetables",
+    "plantDiseases": "Plant Diseases",
+    "recommendedCrops": "Recommended Crops",
+    "healthyVsRotten": "Healthy vs Rotten",
+    "appInformation": "App Information",
+    
+    "openAnalyticsDashboard": "Open Analytics Dashboard",
+    "cropsInformationDashboard": "Crops Information Dashboard"
+} 
