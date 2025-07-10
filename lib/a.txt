@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+class AnalyticsScreen extends StatelessWidget {
+  const AnalyticsScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Crop Analytics'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text(
+              'Crops Information Dashboard',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () async {
+                final Uri url = Uri.parse(
+                  'https://app.powerbi.com/view?r=eyJrIjoiYzc4YTM2NTMtZjZmNi00NDAzLTg0MzktZTY3YjQ0NzVkNTYzIiwidCI6IjBkMDRhNmQxLWFlNDctNGZjZS04MTgxLWMxYTQwNzI5MTNiYiJ9',
+                );
+                if (!await launchUrl(url)) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Could not launch dashboard')),
+                  );
+                }
+              },
+              child: const Text('Open Analytics Dashboard'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
